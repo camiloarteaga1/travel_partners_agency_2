@@ -1,76 +1,99 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Website Layout | CodingLab</title> 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-   </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Partners</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="author" content="Camilo Arteaga">
+  <link rel="icon" href="https://img.icons8.com/material/24/beach--v1.png" type="image/x-icon">
+</head>
+
 <body>
-  <nav>
-    <div class="menu">
-      <div class="logo">
-        <a href="#">Travel Partners Agency</a>
-      </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li>
+  <header>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">Travel Partners Agency</a>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
             <div class="dropdown">
-                <a class="dropbtn" href="#">Destinos</a>
-                <div class="dropdown-content">
-                    <a href="#">Nueva York</a>
-                    <a href="#">Atenas</a>
-                    <a href="#">Tokyo</a>
-                    <a href="#">Roma</a>
-                    <a href="#">Petra</a>
-                    <a href="#">Río de Janeiro</a>
-                </div>
+              <a class="dropbtn" href="#">Destinos</a>
+              <div class="dropdown-content">
+                <a href="#">Nueva York</a>
+                <a href="#">Atenas</a>
+                <a href="#">Tokyo</a>
+                <a href="#">Roma</a>
+                <a href="#">Petra</a>
+                <a href="#">Río de Janeiro</a>
+              </div>
             </div>
-        </li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </div>
-  </nav>
+          </li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
   <div class="img"></div>
-    <div class="center">
+  <div class="center">
     <div class="title">Elige tu próximo destino</div>
     <div class="sub_title">¡Nosotros te acompañamos!</div>
-    <!-- <div class="btns">
-        <button>Learn More</button>
-        <button>Subscribe</button>
-    </div> -->
+    <div class="text">
+      Somos una agencia de viajes especializada en ofrecer experiencias únicas y memorables en destinos turísticos de todo el mundo. Nuestro objetivo es brindar a nuestros clientes un servicio excepcional, proporcionando opciones de viaje personalizadas y adaptadas a sus necesidades y preferencias. Ya sea que estés buscando unas vacaciones relajantes en la playa, una aventura emocionante en la montaña o una exploración cultural en una ciudad vibrante, estamos aquí para hacer realidad tus sueños de viaje. ¡Únete a nosotros y descubre el mundo con Travel Partners!
+    </div>
   </div>
 
-    <div class= 'container'>
-        <div class="container_content">
-            <div class="container_content_inner">
-                <div class="title">
-                    <h1>Hello World</h1>
-                </div>
-
-                <div class="par">
-                    <p>
-                        Cupiditate alias odio omnis minima veritatis saepe porro, 
-                        repellendus natus vitae, sequi exercitationem ipsam, qui 
-                        possimus sit eveniet laborum sapiente quisquam quae neque velit?
-                    </p>
-                </div>
-                
-                <div class="btns2">
-                    <button class='btns2_more'> See more </button>
-                </div>
-            </div>
-        </div>
-
-        <div class="container_outer_img">
-            <div class="img-inner">
-                <img src='https://images.unsplash.com/photo-1517911041065-4960862d38f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80' alt="" class="container_img"/>
-            </div>
-        </div>
+  <h1>Nuestros destinos</h1>    
+  <!-- Container for image grid -->
+  <div class="container">
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/New_york.jpg" alt="Place 1">
+      <div class="image-overlay">
+        <h2>Nueva York</h2>
+      </div>
     </div>
-    <div class="overlay"></div>
+
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/Atenas.jpg" alt="Place 2">
+      <div class="image-overlay">
+        <h2>Atenas</h2>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/Tokyo.jpg" alt="Place 3">
+      <div class="image-overlay">
+        <h2>Tokyo</h2>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/Roma.jpg" alt="Place 4">
+      <div class="image-overlay">
+        <h2>Roma</h2>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/Petra.jpg" alt="Place 5">
+      <div class="image-overlay">
+        <h2>Petra</h2>
+      </div>
+    </div>
+
+    <div class="image-container">
+      <img src="/travel_partners_agency_2/public/assets/img/Rio.jpeg" alt="Place 6">
+      <div class="image-overlay">
+        <h2>Río de Janeiro</h2>
+      </div>
+    </div>
+  </div>
 
 </body>
+
 </html>
